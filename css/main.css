@@ -1,0 +1,260 @@
+@font-face {
+    font-family: 'Muller';
+    src: url("../fonts/Muller-Regular.otf");
+}
+@font-face {
+    font-family: 'Muller Bold';
+    src: url("../fonts/MullerBold.otf");
+}
+@font-face {
+    font-family: 'Yeseva One';
+    src: url("../fonts/YesevaOne-Regular.ttf");
+}
+
+body {
+    margin: 0;
+}
+header {
+    background: #FDFDFD;
+    box-shadow: 0 4px 20px rgba(189, 141, 153, 0.2);
+}
+#header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 14px 0;
+    font-size: 0;
+}
+.logo, #header-links {
+    display: inline-block;
+    vertical-align: middle;
+}
+.logo-link {
+    text-decoration: none;
+}
+.logo img{
+    width: 102px;
+}
+header .logo {
+    margin-right: 214px;
+}
+.header-link {
+    font-family: Muller, sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #BD8D99;
+    margin: 0 25px;
+    text-decoration: none;
+}
+.headings {
+    font-family: "Yeseva One", sans-serif;
+    color: #4B0012;
+}
+h1 {
+    text-align: center;
+    max-width: 615px;
+    font-size: 38px;
+    line-height: 44px;
+    margin: 80px auto 50px auto;
+}
+h2 {
+    font-size: 34px;
+    line-height: 39px;
+    margin: 0;
+}
+
+.slick-slider {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+div.slick-slide.slick-active > div > div {
+    text-align: center;
+}
+div.slick-slide.slick-active > div > div > img {
+    display: inline-block;
+}
+svg.slick-arrow:last-child {
+    position: absolute;
+    z-index: 1;
+    top: calc(50% - 21px);
+    right: -29px;
+}
+svg.slick-arrow:first-child {
+    position: absolute;
+    z-index: 1;
+    top: calc(50% - 21px);
+    left: -29px;
+}
+svg.slick-arrow:first-child:hover,
+svg.slick-arrow:last-child:hover {
+    cursor: pointer;
+}
+#photo-packs-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 120px 0 0 0;
+}
+#photo-packs-content {
+    font-size: 0;
+    margin-top: 43px;
+}
+#photo-packs-variants,
+#photo-packs-image {
+    display: inline-block;
+    vertical-align: top;
+}
+#photo-packs-image {
+    margin-top: 35px;
+    margin-left: 90px;
+    max-width: 335px;
+}
+#tabs {
+    max-width: 730px;
+    font-family: Muller,sans-serif;
+}
+.ui-tabs.ui-corner-all.ui-widget.ui-widget-content.ui-tabs-collapsible {
+    border: none;
+    padding: 0;
+}
+ul.ui-tabs-nav.ui-corner-all.ui-helper-reset.ui-helper-clearfix.ui-widget-header {
+    border: none;
+    background: white;
+    font-size: 0;
+}
+.ui-tabs-tab.ui-corner-top.ui-tab {
+    width: 175px;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+    margin-right: 5px;
+    margin-left: 5px;
+    box-sizing: border-box;
+    outline: none;
+}
+.ui-tabs-tab.ui-corner-top.ui-tab:first-child {
+    margin-left: 0;
+}
+.ui-tabs-tab.ui-corner-top.ui-tab:last-child {
+    margin-right: 0;
+}
+.ui-tabs-tab.ui-corner-top.ui-tab a{
+    padding: 22px 0;
+    width: 173px;
+}
+.ui-tabs-tab.ui-corner-top.ui-tab {
+    border: 1px solid #FCF2F2;
+    border-bottom: none;
+    font-size: 16px;
+}
+.ui-tabs-tab.ui-corner-top.ui-state-default.ui-tab{
+    background: white;
+}
+.ui-tabs-tab.ui-corner-top.ui-state-active.ui-tab {
+    background: #FCF2F2;
+}
+.ui-tabs-tab.ui-corner-top.ui-state-active.ui-tab a {
+    color: #4B0012;
+}
+.ui-tabs-tab.ui-state-default a {
+    color: #B08989
+}
+.ui-tabs-panel.ui-corner-bottom.ui-widget-content {
+    background: #FCF2F2;
+    border-radius: 0 0 10px 10px;
+    color: #4B0012;
+    font-size: 16px;
+    padding: 40px 28px 30px 28px;
+}
+.ui-tabs-panel.ui-corner-bottom.ui-widget-content p,
+.ui-tabs-panel.ui-corner-bottom.ui-widget-content ul{
+    padding: 0;
+    margin: 0;
+}
+.ui-tabs-panel.ui-corner-bottom.ui-widget-content ul {
+
+}
+.ui-tabs-panel.ui-corner-bottom.ui-widget-content li{
+    margin-top: 12px;
+    margin-left: 16px;
+}
+.ui-tabs-panel.ui-corner-bottom.ui-widget-content li::marker {
+    font-size: 18px;
+}
+.ui-tabs-panel.ui-corner-bottom.ui-widget-content li:first-child {
+    margin-top: 15px;
+}
+.ui-tabs-panel.ui-corner-bottom.ui-widget-content strong {
+    font-family: "Muller Bold", sans-serif;
+    font-size: 18px;
+}
+#faq-container {
+    max-width: 928px;
+    margin: 0 auto;
+    padding-top: 120px;
+    padding-bottom: 65px;
+}
+#faq-container h2 {
+    text-align: center;
+    margin-bottom: 45px;
+}
+.ui-accordion-header.ui-corner-top.ui-state-default {
+    padding: 30px 25px;
+    margin: 0 0 15px 0;
+}
+.ui-accordion-header {
+    color: #4B0012;
+    font-family: "Muller Bold", sans-serif;
+    font-size: 18px;
+    background: #FCF2F2;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding: 30px 25px;
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+.ui-accordion-content p {
+    font-size: 16px;
+    color: rgba(98, 3, 26, 0.79);
+    font-family: Muller, sans-serif;
+    margin-top: 0;
+}
+.ui-accordion-content.ui-corner-bottom.ui-helper-reset.ui-widget-content.ui-accordion-content-active {
+    border: none;
+    padding-left: 25px;
+}
+#faq-container h3 span {
+    float: right;
+}
+.iconClosed,
+.ui-state-hover .iconClosed,
+.ui-state-focus .iconClosed{
+    background-image: url('../images/arrow.png');
+    height: 12px;
+    width: 18px;
+    margin-top: 5px;
+}
+.ui-accordion-header-icon.ui-icon.iconOpen,
+.iconClosed .ui-accordion-header-icon.ui-icon.iconOpen{
+    background-image: url('../images/arrow-up.png');
+    height: 12px;
+    width: 18px;
+    margin-top: 5px;
+}
+footer {
+    background: #FCF4F4;
+}
+#footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 14px 0;
+    font-size: 0;
+}
+#footer-container span {
+    vertical-align: middle;
+    font-family: Muller, sans-serif;
+    font-size: 12px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: rgba(189, 141, 153, 0.5);
+    margin-left: 418px;
+}
